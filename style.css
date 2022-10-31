@@ -5,10 +5,6 @@
     font-family: roboto;
 }
 
-h1{
-    display: none;
-}
-
 .grid-container{
     height: 100vh;
     display: grid;

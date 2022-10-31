@@ -9,6 +9,10 @@ h1{
     display: none;
 }
 
+.side-bar a{
+    display: none;
+}
+
 .grid-container{
     height: 100vh;
     display: grid;

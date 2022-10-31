@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- TITLE -->
+    <title>YouTube clone - Using grid and flexbox</title>
+    <!-- DESCRIPTION -->
+    <meta name="description" content="In this webpage, cloning youtube UI using grid system and flexbox.">
+    <!-- META KEYWORDS -->
+    <meta name="keywords" content="HTML, CSS, YOUTUBE, GRID, FLEX, WEB DEVELOPMENT">
+    <!-- META EDGE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- META VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- META CHARSET -->
+    <meta charset="UTF-8">
+    <!-- META AUTHOR -->
+    <meta name="author" content="Bilguundalai Munkhjargal">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item side-bar">
+            <ul>
+                <li><i class="material-icons">menu</i></li>
+                <li><i class="material-icons">home</i><br>Home</li>
+                <li><i class="material-icons">cloud</i><br>Shorts</li>
+                <li><i class="material-icons">subscriptions</i><br>Subscriptions</li>
+                <li><i class="material-icons">video_library</i><br>Library</li>
+            </ul>
+        </div>
+        <div class="grid-item header">
+            <img src="assets/YouTube_logo_(2017).png" alt="youtube logo">
+            <div class="header-search">
+                <input type="text" placeholder="Search">
+                <button><i class="material-icons">search</i></button>
+                <i class="material-icons" id="mic">mic</i>
+            </div>
+            <i class="material-icons" id="video-call">video_call</i>
+            <i class="material-icons" id="not">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+        <div class="grid-item genre">
+            <div class="navigation">All</div>
+            <div class="navigation">Mixed</div>
+            <div class="navigation">Music</div>
+            <div class="navigation">Gaming</div>
+            <div class="navigation">Live</div>
+            <div class="navigation">CSS</div>
+            <div class="navigation">Trailers</div>
+            <div class="navigation">Dota 2</div>
+            <div class="navigation">Python</div>
+            <div class="navigation">Pop Rock</div>
+            <div class="navigation">Soundtrack</div>
+            <div class="navigation">Computors</div>
+            <div class="navigation">Rapping</div>
+            <div class="navigation">Maneskin</div>
+            <div class="navigation">Aurora</div>
+        </div>
+        <div class="grid-item main">
+            <div class="main-content">
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="spider-man" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile" alt="funny spider-man">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+            </div>
+            <div class="shorts">
+                <div class="shorts-icon"><i class="material-icons">slideshow</i>Shorts</div>
+                <div class="short-container">
+                    <img src="assets/1.webp" class="short-image" alt="monitor">
+                    <p class="title">This is monitor.</p>
+                    <p class="views">500M views</p>
+                </div>
+                <div class="short-container">
+                    <img src="assets/2.webp" class="short-image" alt="mercedes benz">
+                    <p class="title">This is mercedes.</p>
+                    <p class="views">500M views</p>
+                </div>
+                <div class="short-container">
+                    <img src="assets/3.webp" class="short-image" alt="iron-man">
+                    <p class="title">This is ironman.</p>
+                    <p class="views">500M views</p>
+                </div>
+                <div class="short-container">
+                    <img src="assets/hq720_2 (3).webp" class="short-image" alt="remote control car">
+                    <p class="title">This is remote car.</p>
+                    <p class="views">500M views</p>
+                </div>
+                <div class="short-container">
+                    <img src="assets/hq720_2 (2).webp" class="short-image" alt="spider-man">
+                    <p class="title">This is spiderman.</p>
+                    <p class="views">500M views</p>
+                </div>
+                <div class="short-container">
+                    <img src="assets/hq720_2 (1).webp" class="short-image" alt="bugatti">
+                    <p class="title">This is bugatti.</p>
+                    <p class="views">500M views</p>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+                <div class="video-container">
+                    <div class="container">
+                        <img src="assets/71514-spiderman-hd-4k-superheroes-artwork-digital-art-art-behance.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text"><i class="material-icons">play_arrow</i>PLAY</div>
+                        </div>
+                    </div>
+                    <img src="assets/60s-spider-man-funny-pfp-1.jpg" class="profile">
+                    <p class="title">It isn't spider-man.</p>
+                    <p class="author">Bi bol bd</p>
+                    <p class="views">7B views ~ 1 day ago</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

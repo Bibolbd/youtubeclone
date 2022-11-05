@@ -13,6 +13,10 @@ h1{
     display: none;
 }
 
+#additional-text{
+    display: none;
+}
+
 .grid-container{
     height: 100vh;
     display: grid;

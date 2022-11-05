@@ -9,7 +9,9 @@ h1{
     display: none;
 }
 
-
+.side-bar a{
+    display: none;
+}
 
 .side-bar p{
     display: none;
